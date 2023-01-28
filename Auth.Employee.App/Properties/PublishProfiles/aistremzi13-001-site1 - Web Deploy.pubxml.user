@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>True|2023-01-16T12:03:39.5691590Z;True|2023-01-16T16:00:59.5708489+04:00;False|2023-01-16T16:00:39.5753152+04:00;True|2023-01-16T15:54:56.9089481+04:00;True|2023-01-16T15:53:54.5195572+04:00;False|2023-01-16T15:47:41.1944473+04:00;False|2023-01-16T15:46:20.7585662+04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=SQL5097.site4now.net%3bInitial Catalog=db_a93101_balakishiyev13%3bUser Id=db_a93101_balakishiyev13_admin%3bPassword=admin123</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="AppJwtEmployee.DBL.DAL.Persistance.Context.EmpContext">
+      <Value>Data Source=SQL5097.site4now.net%3bInitial Catalog=db_a93101_balakishiyev13%3bUser Id=db_a93101_balakishiyev13_admin%3bPassword=admin123</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

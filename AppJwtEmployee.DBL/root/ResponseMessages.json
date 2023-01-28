@@ -1,0 +1,18 @@
+{
+  "Messages": {
+    //Department
+    "D-0001": "Sistemdə Şöbə qeydə alınmamışdır",
+    "D-0002": "Şöbə uğurla əlavə edildi",
+    "D-0003": "Şöbə arqumenti boş buraxıla bilməz",
+    "D-0004": "Şöbələr yükləndi",
+    "D-0005": "Şöbə tapılmadı",
+
+
+
+
+
+
+    //Common
+    "C-0001": "Arqument boş qoyula bilməz"
+  }
+}

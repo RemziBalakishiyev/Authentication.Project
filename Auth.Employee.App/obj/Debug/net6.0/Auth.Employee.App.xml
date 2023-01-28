@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Auth.Employee.App</name>
+    </assembly>
+    <members>
+        <member name="M:Auth.Employee.App.Controllers.DepartmentsController.GetDepartment">
+            <summary>
+            Bütün department-ləri gətirir
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Auth.Employee.App.Controllers.DepartmentsController.AddDepartment(AppJwtEmployee.DBL.Dtos.AddDeparmentDto)">
+            <summary>
+            Bütün department-ləri gətirir
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\bin\Debug\net6.0\AppJwtEmployee.DBL.deps.json
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\bin\Debug\net6.0\AppJwtEmployee.DBL.runtimeconfig.json
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\bin\Debug\net6.0\AppJwtEmployee.DBL.dll
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\bin\Debug\net6.0\AppJwtEmployee.DBL.pdb
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\obj\Debug\net6.0\AppJwtEmployee.DBL.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\obj\Debug\net6.0\AppJwtEmployee.DBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\obj\Debug\net6.0\AppJwtEmployee.DBL.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\obj\Debug\net6.0\AppJwtEmployee.DBL.AssemblyInfo.cs
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\obj\Debug\net6.0\AppJwtEmployee.DBL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\obj\Debug\net6.0\AppJwtEmployee.DBL.dll
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\obj\Debug\net6.0\refint\AppJwtEmployee.DBL.dll
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\obj\Debug\net6.0\AppJwtEmployee.DBL.pdb
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\obj\Debug\net6.0\AppJwtEmployee.DBL.genruntimeconfig.cache
+C:\Users\Admin\source\repos\AuthenticationProject\AppJwtEmployee.DBL\obj\Debug\net6.0\ref\AppJwtEmployee.DBL.dll
