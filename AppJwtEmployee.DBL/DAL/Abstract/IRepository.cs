@@ -10,5 +10,5 @@ public interface IRepository<TEntity,TDbContext>:IQueryRepository<TEntity, TDbCo
     Task Add(TEntity entity);
     Task Update(TEntity entity);
     Task Delete(TEntity entity);
-
+    Task SaveChanges();
 }

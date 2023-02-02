@@ -1,9 +1,13 @@
-﻿using System.Text.Json;
+﻿using Microsoft.AspNetCore.Hosting;
+using System.Reflection;
+using System.Text.Json;
 
 namespace AppJwtEmployee.DBL.Utility.Helper.FileOperations
 {
     public static class ResponseMessageManager
     {
+
+        private const string JsonFilePath = "..\\AppJwtEmployee.DBL\\root\\responsemessages.json";
 
         private static Dictionary<string, string> messages;
         public static string GetResponseMessageByMessageCode(string messageCode)
@@ -24,10 +28,20 @@ namespace AppJwtEmployee.DBL.Utility.Helper.FileOperations
 
         public static void LoadMessages()
         {
-            messages = new Dictionary<string, string>();
-            using var json = File.OpenRead("C:\\Users\\Admin\\source\\repos\\AuthenticationProject\\AppJwtEmployee.DBL\\root\\ResponseMessages.json");
 
-            using JsonDocument jsonDocument = JsonDocument.Parse(json);
+            messages = new Dictionary<string, string>();
+            using var json = File.OpenRead(JsonFilePath);
+
+            JsonDocumentOptions options = new JsonDocumentOptions
+            {
+                AllowTrailingCommas = true,
+                CommentHandling = JsonCommentHandling.Skip
+            };
+
+            var nm = json.Name;
+            var ps = json.Position;
+            var cw = json.CanWrite;
+            using JsonDocument jsonDocument = JsonDocument.Parse(json, options);
 
             JsonElement root = jsonDocument.RootElement;
             var properties = root.GetProperty("Messages").EnumerateObject();

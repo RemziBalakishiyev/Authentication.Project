@@ -72,14 +72,16 @@ namespace AppJwtEmployee.DBL.Services.Concrete
 
         public async Task<IResultFactory<DepartmentDto>> UpdateDepartment(EditDepartmentDto deparmentDto)
         {
-            var department = await _departmentRepository.GetByIdAsync(deparmentDto.Id);
+            var department = await _departmentRepository.GetAsync(x=>x.Id==deparmentDto.Id);
             if (department is null)
             {
                 return ResultInfo<DepartmentDto>.NotFound("D-0005");
             }
 
-            var result = mapper.Map<Department>(department);
-            await _departmentRepository.Update(result);
+            department.Name = deparmentDto.Name;
+
+            await _departmentRepository.SaveChanges();
+           
             return ResultInfo<DepartmentDto>.Success("D-0004", null);
         }
 

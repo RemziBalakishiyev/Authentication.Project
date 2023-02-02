@@ -28,7 +28,7 @@ namespace Auth.Employee.App.Controllers
         {
             var result =  await _departmentService.GetDepartmentsAsync();
             return result.AsObjectResult();
-        }
+        }   
 
         /// <summary>
         /// Bütün department-ləri gətirir

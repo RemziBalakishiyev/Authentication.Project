@@ -23,6 +23,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(new Assembly[] { typeof(MapperConfig).GetTypeInfo().Assembly });
 
 builder.Services.AddDbContext<EmpContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddScoped(typeof(IResultFactory<>), typeof(ResultFactory<>));
 builder.Services.AddScoped(typeof(IRepository<,>), typeof(GenericRepository<,>));
 builder.Services.AddScoped(typeof(IQueryRepository<,>), typeof(QueryRepository<,>));

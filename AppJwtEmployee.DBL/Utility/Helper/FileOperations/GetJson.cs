@@ -8,7 +8,7 @@ public class GetJson
     static GetJson()
     {
 
-        using var stream = File.OpenRead("C:\\Users\\Admin\\source\\repos\\AuthenticationProject\\AppJwtEmployee.DBL\\appSettings.json");
+        using var stream = File.OpenRead("..\\AppJwtEmployee.DBL\\appsettings.json");
 
         var node = JsonNode.Parse(stream);
 

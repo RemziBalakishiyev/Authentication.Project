@@ -38,5 +38,10 @@ namespace AppJwtEmployee.DBL.DAL.Persistance.Repositories
              _dbContext.Update(entity);
             await _dbContext.SaveChangesAsync();
         }
+
+        public async Task SaveChanges()
+        {
+            await _dbContext.SaveChangesAsync();
+        }
     }
 }

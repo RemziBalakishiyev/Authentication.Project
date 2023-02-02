@@ -10,4 +10,5 @@ public interface IDepartmentService
     Task<IResultFactory<Department>> AddDepartment(AddDeparmentDto addDeparmentDto);
     Task<IResultFactory<DepartmentDto>> GetDepartmentById(int id);
     Task<IResultFactory<DepartmentDto>> DeleteDepartment(EditDepartmentDto deparmentDto);
+    Task<IResultFactory<DepartmentDto>> UpdateDepartment(EditDepartmentDto deparmentDto);
 }
