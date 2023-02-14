@@ -50,7 +50,7 @@ app.UseCors(builder =>
     builder
     .AllowAnyMethod()
     .AllowAnyHeader()
-    .AllowCredentials();
+    .AllowAnyOrigin();
 });
 
 app.UseAuthorization();
